@@ -5,7 +5,6 @@ A responsive image gallery built with HTML, CSS, and JavaScript. This was previo
 ## Features
 - Responsive grid gallery with color-themed slides
 - Uses `srcset` for optimized image loading on desktop and mobile
-- Accessible markup and keyboard navigation
 - Smooth scroll and back-to-top button
 - All images sourced under Creative Commons licenses
 
