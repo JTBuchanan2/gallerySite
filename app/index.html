@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Gallery site</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <main>
+    <div class="container">
+      <div class="slide noImages" id="slide1">
+        <h2>Playing around with galleries</h2>
+      </div>
+      <div class="slide rightAlign" id="slide2">
+        <h2 class="textRight">These are green</h2>
+        <ul class="galleryList">
+          <li><img src="img/green_1-300.webp" srcset="img/green_1-150.webp 150w, img/green_1-300.webp 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Boston Celtics logo" draggable="false" /></li>
+          <li><img src="img/green_2-300.png" srcset="img/green_2-150.png 150w, img/green_2-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Cartoon green apple" draggable="false" /></li>
+          <li><img src="img/green_3-300.png" srcset="img/green_3-150.png 150w, img/green_3-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Photo of hanging green leaves" draggable="false" /></li>
+          <li><img src="img/green_4-300.png" srcset="img/green_4-150.png 150w, img/green_4-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Photo of an emerald" draggable="false" /></li>
+        </ul>
+      </div>
+      <div class="slide" id="slide3">
+        <h2>These are purple</h2>
+        <ul class="galleryList">
+          <li><img src="img/purple_1-300.png" srcset="img/purple_1-150.png 150w, img/purple_1-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Render of Grimace" draggable="false" /></li>
+          <li><img src="img/purple_2-300.png" srcset="img/purple_2-150.png 150w, img/purple_2-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Purple grapes emoji" draggable="false" /></li>
+          <li><img src="img/purple_3-300.png" srcset="img/purple_3-150.png 150w, img/purple_3-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Barney the Dinosaur" draggable="false" /></li>
+          <li><img src="img/purple_4-300.webp" srcset="img/purple_4-150.webp 150w, img/purple_4-300.webp 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Cartoon purple gem" draggable="false" /></li>
+        </ul>
+      </div>
+      <div class="slide rightAlign" id="slide4">
+        <h2 class="textRight">These are blue</h2>
+        <ul class="galleryList">
+          <li><img src="img/blue_1-300.png" srcset="img/blue_1-150.png 150w, img/blue_1-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Cartoon blueberries" draggable="false" /></li>
+          <li><img src="img/blue_2-300.png" srcset="img/blue_2-150.png 150w, img/blue_2-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Cartoon blue gem" draggable="false" /></li>
+          <li><img src="img/blue_3-300.png" srcset="img/blue_3-150.png 150w, img/blue_3-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="The character Bluey" draggable="false" /></li>
+          <li><img src="img/blue_4-300.png" srcset="img/blue_4-150.png 150w, img/blue_4-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Satellite image of Earth" draggable="false" /></li>
+        </ul>
+      </div>
+      <div class="slide" id="slide5">
+        <h2>These are orange</h2>
+        <ul class="galleryList">
+          <li><img src="img/orange_1-300.png" srcset="img/orange_1-150.png 150w, img/orange_1-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Cartoon pumpking" draggable="false" /></li>
+          <li><img src="img/orange_2-300.png" srcset="img/orange_2-150.png 150w, img/orange_2-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Cartoon orange" draggable="false" /></li>
+          <li><img src="img/orange_3-300.png" srcset="img/orange_3-150.png 150w, img/orange_3-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Photo of a carrot" draggable="false" /></li>
+          <li><img src="img/orange_4-300.png" srcset="img/orange_4-150.png 150w, img/orange_4-300.png 300w" sizes="(max-width: 600px) 150px, 300px" class="galleryImg" alt="Cartoon clownfish" draggable="false" /></li>
+        </ul>
+      </div>
+      <div class="slide noImages" id="slide6">
+        <div class="textWrapper">
+          <h2><i>Some fine print</i></h2>
+          <p>All images sourced under Creative Commons licenses.</p>
+        </div>
+      </div>
+      <button class="backToTop" tabindex="0" aria-label="Back to top">
+        <svg
+          xmlns="http://www.w3.org/2000/svg"
+          class="backToTopIcon"
+          fill="none"
+          viewBox="0 0 24 24"
+          stroke="currentColor"
+        >
+          <path
+            stroke-linecap="round"
+            stroke-linejoin="round"
+            stroke-width="2"
+            d="M7 11l5-5m0 0l5 5m-5-5v12"
+          />
+        </svg>
+      </button>
+    </div>
+    <script src="script.js"></script>
+  </main>
+</html>
