@@ -1,6 +1,6 @@
 # Gallery Site
 
-A colorful, responsive image gallery built with HTML, CSS, and JavaScript. This project demonstrates modern web layout techniques, responsive images, and accessibility best practices.
+A responsive image gallery built with HTML, CSS, and JavaScript. This was previously a bit of a private playground for me to dive a bit deeper into CSS Grid, image srcsets, and snap-scrolling. Making it public, I've made a few changes such as ensuring the site follows accessibility standards and (hopefully) works on all types of devices. All images have been sourced under Creative Common licenses.
 
 ## Features
 - Responsive grid gallery with color-themed slides
